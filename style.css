@@ -162,13 +162,58 @@
   padding-top: 215px;
   height:350px;
   text-align: center;
-  background:linear-gradient(109.6deg, rgb(62, 161, 219) 11.2%, rgb(93, 52, 236) 100.2%);}
+  background: radial-gradient(1294px at -15.5% 23.8%, rgb(255, 206, 149) 0%, rgb(247, 92, 92) 44.9%, rgba(108, 0, 96, 0.97) 93.8%);
+}
+.bannerStatistic{
+  display: block;
+  padding-top: 215px;
+  height:350px;
+  text-align: center;
+  background: radial-gradient(1294px at -15.5% 23.8%, rgb(255, 206, 149) 0%, rgb(247, 92, 92) 44.9%, rgba(108, 0, 96, 0.97) 93.8%);
+}
 .bannerText{
   font-size: 32px;
   color:#ffff;
   font-family: 'Moul', cursive;
 }
 /* End banner */
+
+/* Statistic */
+  .itemstas{
+    width:350px;
+    height: 160px;
+    background-color: #F0F3F4;
+    display: flex;
+    border-radius: 25px;
+    text-align: center;    
+    border-left: 5px solid #CB4335;
+    box-shadow: 3px 3px  #dfe0e1;
+    color:#31BC81;
+    margin: 10px;
+  }
+  .itemright{
+    width: 40%;
+    margin-top:30px;
+  }
+  .itemright img{
+      width: 80px;
+  }
+  .itemleft{
+    width: 60%;
+    margin-top:30px;
+  }
+  .itmenum{
+    margin-bottom: 10px;
+    color:#19A267 ;
+    font-size: 30px;
+    font-family: serif;
+    font-weight: bold;
+  }
+  .itemtitle h3{
+    font-family: 'Koulen';
+  }
+/* End statistic */
+
 /* Content */
 .content{
   width: 85%;
@@ -315,6 +360,12 @@
     text-align: center;
     background:linear-gradient(109.6deg, rgb(62, 161, 219) 11.2%, rgb(93, 52, 236) 100.2%);
   }
+  .bannerStatistic{
+    padding-top: 145px;
+    height:250px;
+    text-align: center;
+    background:linear-gradient(109.6deg, rgb(62, 161, 219) 11.2%, rgb(93, 52, 236) 100.2%);
+  }
   .bannerText{
     font-size: 28px;
     color:#ffff;
@@ -327,6 +378,12 @@
   .content{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+  .itemstas{
+    margin: auto;
+    margin-top:15px;
+    margin-bottom: 15px;
   }
   
 }
