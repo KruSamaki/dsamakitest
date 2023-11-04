@@ -1,18 +1,18 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Battambang&family=Moul&family=Odor+Mean+Chey&family=Varela+Round&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
 .MenuName,.offcanvas-title{
     font-family: 'Moul', cursive;
-    font-size: 2em;
+    font-size: 1.5em;
     text-decoration: none;
     color:#17A591;
 }
 
 *{
-  font-family: 'Battambang', serif;
+  font-family: 'koh santepheap', serif;
 }
 .logo{
-    width: 85px;
+    width: 72px;
 }
 .coverIMG{
   position: relative;
@@ -70,8 +70,8 @@
   height: 100vh;
 }
 .left1,.left1p{
-  font-size: 6vw;
-  line-height: 55pt;
+  font-size: 3em;
+  line-height: 30pt;
   color:white;
   display: block;
 }
@@ -188,7 +188,7 @@
     text-align: center;    
     border-left: 5px solid #CB4335;
     box-shadow: 3px 3px  #dfe0e1;
-    color:#31BC81;
+    color:#5D6D7E;
     margin: 10px;
   }
   .itemright{
@@ -204,7 +204,7 @@
   }
   .itmenum{
     margin-bottom: 10px;
-    color:#19A267 ;
+    color:#839192 ;
     font-size: 30px;
     font-family: serif;
     font-weight: bold;
@@ -292,7 +292,7 @@
   }
 
   .imgCover{
-    object-fit: cover; object-position: 100% 0;
+    object-fit: cover; object-position: 100% 1;
   }
   .MenuName, .offcanvas-title{
     font-family: 'Moul', cursive;
@@ -320,6 +320,7 @@
   .left1p{
     display: block;
     text-align: center;
+    font-size: 30px;
   }
   .a{
     color:white;
@@ -335,6 +336,7 @@
     width: 100%;
     text-align: center;
   }
+
   /* Banner */
   .bannerAbout{
     padding-top: 145px;
@@ -387,4 +389,76 @@
     width: 280px;
   }
   
+}
+
+/* Manager item */
+/* Grid container */
+.manager-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Grid item */
+.manager-item {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+}
+
+/* Grid item hover animation */
+.manager-item:hover {
+  transform: scale(1.05);
+}
+
+/* Image styles */
+.manager-item img {
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* Details container */
+.details-manager {
+  padding-top: 30px;
+  flex-grow: 1;
+}
+
+/* Name styles */
+.manager-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Telephone styles */
+.manager-item p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Responsive media query */
+@media (max-width: 768px) {
+  .manager-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .manager-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .manager img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .details-manager{
+    padding-top: 5px;
+  }
 }
