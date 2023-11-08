@@ -1,15 +1,19 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Battambang&family=Moul&family=Odor+Mean+Chey&family=Varela+Round&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
+  /* 'koh santepheap' */
 .MenuName,.offcanvas-title{
     font-family: 'Moul', cursive;
     font-size: 1.5em;
     text-decoration: none;
     color:#17A591;
 }
-
+@font-face {
+  font-family: 'Kh27feb', serif;
+  src:url('fonts/Kh\ 27Feb.ttf')  format('truetype'), 
+}
 *{
-  font-family: 'koh santepheap', serif;
+  font-family: 'Kh27feb', serif;
 }
 .logo{
     width: 72px;
@@ -353,11 +357,11 @@
   .left1p{
     display: block;
     text-align: center;
-    font-size: 30px;
+    font-size: 18px;
   }
   .a{
     color:white;
-    font-size: 1.7em;
+    font-size: 1.3em;
   }
   /* footer2 */
   .footer2{
