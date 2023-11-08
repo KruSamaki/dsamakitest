@@ -124,7 +124,7 @@
   padding: 20px;
   background-color: #17A591;
   color: white;
-  border-top: 10px solid #027062;
+  border-top: 3px solid #027062;
   max-width: 100vw;; /* Change width to 100vw */
   justify-content: center; /* Center the content horizontally */
 }
