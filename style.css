@@ -8,12 +8,9 @@
     text-decoration: none;
     color:#17A591;
 }
-@font-face {
-  font-family: 'Kh27feb', serif;
-  src:url('fonts/Kh\ 27Feb.ttf')  format('truetype'), 
-}
+
 *{
-  font-family: 'Kh27feb', serif;
+  font-family: 'koh santepheap', serif;
 }
 .logo{
     width: 72px;
